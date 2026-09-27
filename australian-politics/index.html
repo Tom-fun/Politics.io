@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#012169">
+  <meta name="description" content="An Australian politics explainer with federal Parliament facts, election results, and current public information.">
+  <title>Australian Politics | Federal Parliament & Public Affairs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="intro" id="intro" aria-label="Intro visual">
+      <video id="trackerVideo" muted playsinline preload="auto" src="video/intro-video.mp4"></video>
+    </section>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Australian Politics home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>AUSTRALIAN<br><strong>POLITICS</strong></span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">☰</button>
+        <nav id="nav" class="nav" aria-label="Primary navigation">
+          <a href="#overview">Overview</a>
+          <a href="#parliament">Parliament</a>
+          <a href="#issues">Issues</a>
+          <a href="#election">Election</a>
+          <a href="#how-it-works">How it works</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <p class="eyebrow">FEDERAL POLITICS · AUSTRALIA</p>
+        <h1>Understand the people, Parliament and policies shaping Australia.</h1>
+        <p class="hero-lede">A clean, neutral place to explore how the federal system works, who sits in Parliament, what the chambers do, and where to find official information.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#parliament">Explore Parliament <span>→</span></a>
+          <a class="button secondary" href="#how-it-works">How government works</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-top"><span>CANBERRA</span><span class="live-dot"></span></div>
+        <div class="hero-card-number">48th</div>
+        <div class="hero-card-label">Parliament of Australia</div>
+        <div class="hero-card-grid">
+          <div><strong>150</strong><small>House seats</small></div>
+          <div><strong>76</strong><small>Senators</small></div>
+        </div>
+        <p class="as-at">Parliament facts are checked against official sources; dates are shown where figures may change.</p>
+      </div>
+    </section>
+
+    <section class="section" id="parliament">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PARLIAMENT AT A GLANCE</p>
+          <h2>Two chambers. Different jobs.</h2>
+        </div>
+        <p>Australia’s federal Parliament has a House of Representatives and a Senate. Members and senators represent electorates, states or territories.</p>
+      </div>
+
+      <div class="chamber-grid">
+        <article class="info-card house-card">
+          <div class="card-icon">H</div>
+          <div class="card-title-row"><h3>House of Representatives</h3><span class="tag">150 seats</span></div>
+          <p>The House is where government is formed. Members represent individual federal electorates and debate proposed laws, budgets and public policy.</p>
+          <a href="https://www.aph.gov.au/About_Parliament/House_of_Representatives" target="_blank" rel="noreferrer">Official House information ↗</a>
+        </article>
+        <article class="info-card senate-card">
+          <div class="card-icon">S</div>
+          <div class="card-title-row"><h3>Senate</h3><span class="tag">76 seats</span></div>
+          <p>Senators represent states and territories. The Senate reviews legislation and often has a broader mix of parties and independents.</p>
+          <a href="https://www.aph.gov.au/Senate" target="_blank" rel="noreferrer">Official Senate information ↗</a>
+        </article>
+      </div>
+
+      <div class="snapshot" aria-label="Current parliamentary snapshot">
+        <div class="snapshot-title"><span>48TH PARLIAMENT</span><span>CHECKED 27 SEP 2026</span></div>
+        <div class="snapshot-main">
+          <div class="snapshot-stat"><strong>14</strong><span>crossbench members in the House</span></div>
+          <div class="snapshot-stat"><strong>30</strong><span>Labor senators</span></div>
+          <div class="snapshot-stat"><strong>27</strong><span>Coalition senators</span></div>
+          <div class="snapshot-stat"><strong>10</strong><span>Greens senators</span></div>
+        </div>
+        <p class="snapshot-note">Senate composition figures are from the Parliament of Australia’s published composition page, dated 14 May 2026. Crossbench House figures are from the Parliament’s March 2026 party information.</p>
+      </div>
+    </section>
+
+    <section class="section issues" id="issues">
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow">KEY POLICY AREAS</p>
+          <h2>What federal politics covers</h2>
+        </div>
+        <p>These are broad areas of public policy. The site does not tell you which view to support.</p>
+      </div>
+      <div class="topic-grid">
+        <button class="topic" data-topic="Cost of living"><span>01</span><strong>Cost of living</strong><small>Prices, taxes, wages, household budgets</small></button>
+        <button class="topic" data-topic="Housing"><span>02</span><strong>Housing</strong><small>Renting, home ownership, supply and planning</small></button>
+        <button class="topic" data-topic="Health"><span>03</span><strong>Health</strong><small>Medicare, hospitals, medicines and aged care</small></button>
+        <button class="topic" data-topic="Education"><span>04</span><strong>Education</strong><small>Schools, universities, skills and training</small></button>
+        <button class="topic" data-topic="Climate and energy"><span>05</span><strong>Climate & energy</strong><small>Emissions, electricity, renewables and resources</small></button>
+        <button class="topic" data-topic="Defence and foreign affairs"><span>06</span><strong>Defence & foreign affairs</strong><small>Security, diplomacy, trade and alliances</small></button>
+      </div>
+      <div class="topic-detail" id="topicDetail" aria-live="polite">Choose an area above to see a short neutral description.</div>
+    </section>
+
+    <section class="section split" id="election">
+      <div>
+        <p class="eyebrow">2025 FEDERAL ELECTION</p>
+        <h2>The House result</h2>
+        <p class="body-copy">The Australian Electoral Commission’s final House results recorded 150 seats contested. The figures below are the 2025 election result, not a live polling forecast.</p>
+        <div class="source-note">Official final result · AEC · updated 10 June 2025</div>
+      </div>
+      <div class="result-card">
+        <div class="result-row"><span>Australian Labor Party</span><strong>94</strong></div>
+        <div class="bar"><i style="width:62.67%"></i></div>
+        <div class="result-row"><span>Liberal/National Coalition</span><strong>43</strong></div>
+        <div class="bar"><i style="width:28.67%"></i></div>
+        <div class="result-row"><span>Independent</span><strong>10</strong></div>
+        <div class="bar"><i style="width:6.67%"></i></div>
+        <div class="result-row"><span>Greens</span><strong>1</strong></div>
+        <div class="result-row"><span>Centre Alliance</span><strong>1</strong></div>
+        <div class="result-row"><span>Katter’s Australian Party</span><strong>1</strong></div>
+      </div>
+    </section>
+
+    <section class="section how" id="how-it-works">
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow">THE BASICS</p>
+          <h2>How a federal decision can become law</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step"><span>01</span><h3>Idea or bill</h3><p>A bill is introduced into Parliament and its purpose is explained.</p></div>
+        <div class="step"><span>02</span><h3>Debate</h3><p>Members or senators debate the bill and may propose amendments.</p></div>
+        <div class="step"><span>03</span><h3>Both chambers</h3><p>In most cases, both the House and Senate must agree on the final text.</p></div>
+        <div class="step"><span>04</span><h3>Royal assent</h3><p>The Governor-General gives Royal Assent before an Act becomes law, subject to its commencement arrangements.</p></div>
+      </div>
+    </section>
+
+    <section class="section latest">
+      <div class="news-head">
+        <div>
+          <p class="eyebrow">LATEST FEDERAL UPDATE</p>
+          <h2>What is happening now</h2>
+        </div>
+        <span class="updated">24 SEP 2026</span>
+      </div>
+      <article class="news-card">
+        <div class="news-date">24<br><small>SEP</small></div>
+        <div>
+          <p class="news-kicker">DIGITAL GOVERNMENT / CYBER SECURITY</p>
+          <h3>Government announces a rapid review after an AI-related cyber incident</h3>
+          <p>Prime Minister Anthony Albanese announced a rapid review into Australian Government arrangements after an AI-related incident affecting government information systems. The review is being led by the Department of the Prime Minister and Cabinet with several relevant agencies.</p>
+          <a href="https://www.pmc.gov.au/domestic-policy/rapid-review-australian-government-arrangements-ai-driven-cyber-incident" target="_blank" rel="noreferrer">Read the official government announcement ↗</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>AUSTRALIAN<br><strong>POLITICS</strong></span></div>
+        <p>Independent-style educational presentation using public information. It is not an official government website and does not represent a political party.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.aph.gov.au/" target="_blank" rel="noreferrer">Parliament of Australia</a>
+        <a href="https://www.aec.gov.au/" target="_blank" rel="noreferrer">Australian Electoral Commission</a>
+        <a href="https://www.pm.gov.au/" target="_blank" rel="noreferrer">Prime Minister of Australia</a>
+      </div>
+      <div class="copyright">© 2026 · Information checked 27 September 2026</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
